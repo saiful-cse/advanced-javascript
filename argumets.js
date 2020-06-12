@@ -4,7 +4,7 @@ function add(a,b){
     console.log(allArgument);
     for (let i = 0; i < allArgument.length; i++) {
         const element = allArgument[i];
-        sum = sum + element;
+        sum += element;
     }
     return sum;
 }
